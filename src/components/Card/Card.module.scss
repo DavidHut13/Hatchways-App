@@ -1,0 +1,37 @@
+
+.WorkOrder{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.Body{
+    border:none;
+    border-radius:10px;
+    padding:1rem;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(148,148,148,0.35);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(148,148,148,0.35);
+    box-shadow: 0px 5px 10px 0px rgba(148,148,148,0.35);
+}
+
+
+.ProfilePic{
+    background-image:url(/assets/images/pexels-alexander-isreb-1797428.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    width:75px;
+    height:75px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(148,148,148,0.35);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(148,148,148,0.35);
+    box-shadow: 0px 0px 5px 0px rgba(148,148,148,0.35);
+}
+
+.UserDetails{
+    margin-left:10px;
+}
+
